@@ -1,9 +1,31 @@
-# Getting started with Crawlee
+# How to use
 
-This example uses `PlaywrightCrawler` to recursively crawl https://crawlee.dev using the browser automation library [Playwright](https://playwright.dev).
+1. Install
 
-You can find more examples and documentation at the following links:
+```sh
+git clone git@github.com:zhangxiaoshang/blur-crawler.git
 
-- [Step-by-step tutorial](https://crawlee.dev/docs/introduction) for Crawlee
-- `PlaywrightCrawler` [API documentation](https://crawlee.dev/api/playwright-crawler/class/PlaywrightCrawler)
-- Other [examples](https://crawlee.dev/docs/examples/playwright-crawler)
+cd blur-crawler
+
+npm i -g pnpm
+
+pnpm install
+pnpm exec playwright install
+
+```
+
+2. Edit
+
+   edit `config.ts`
+
+3. Build
+
+```sh
+pnpm run build
+```
+
+4. Run
+
+```sh
+pnpm run start:prod
+```
